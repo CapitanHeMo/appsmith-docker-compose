@@ -4,9 +4,6 @@ services:
   appsmith:
     image: index.docker.io/appsmith/appsmith-ce
     container_name: appsmith
-    ports:
-      - "80:80"
-      - "443:443"
     volumes:
       - type: bind
         source: ./data
